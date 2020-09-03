@@ -1,0 +1,21 @@
+<html>
+
+<head>
+</head>
+
+<body style="width:300px;height:600px;">
+    <div style="width:300px;height:600px;">
+        <form enctype="multipart/form-data" method="post">
+            <input name="test" type="file" accept="image/*;capture=camera" style="display:none;">
+            <button onclick="this.form.test.click();"
+                style="width:300px;height:300px;font-size:72px;margin:0px auto;position: absolute;top:0;left:0;bottom:0;right:0;">
+                開啟
+            </button>
+        </form>
+    </div>
+</body>
+<script language="javascript">
+    self.resizeTo(300, 300)
+</script>
+
+</html>
